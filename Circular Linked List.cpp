@@ -40,7 +40,6 @@ void vvod(ring** head, int *remember)
 		}
 		cin >> x;
 	}
-
 	*remember = x - '0';
 }
 void func(ring** head, int remember) 
